@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border-radius: 10px;   
+}
+body{background-color: black;}
+
+.encabezado{
+    /* gap: 580px; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 0px;
+}
+
+.logo{
+    width: 160px;
+    height: 100px;
+    border-radius: none;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3rem;
+}
+.enlaces a{
+    color: grey ;
+    font-size: 20px;
+}
+
+
+.padre{
+display: flex;
+flex-direction:column;
+top: 150px;
+}
+
+.titulo{
+    font-size: 90px;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.texto{
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.fondo{
+    background: url(galaxy.webp);
+    width: 100%;
+    height: 50rem;
+   
+    background-size: cover;
+}
+
+.section{
+    display: flex;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+}
+
+.cuadro{
+    height: 320px;
+    width: 800px;
+    background-color: black;
+}
